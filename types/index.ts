@@ -38,7 +38,9 @@ export interface CarProps {
     model: string;
     transmission: string;
     year: number;
-    image: typeof import("*.jpg")
+    // image: typeof import("*.jpg")
+    image: string;
+    gallery: object
  //   gallery: string[];
 }
 

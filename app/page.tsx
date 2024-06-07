@@ -19,7 +19,7 @@ export default function Home() {
     transmission: car.transmission,
     year: car.year,
     image: car.image,
-  
+    gallery: car.gallery
   }));
 
   return (

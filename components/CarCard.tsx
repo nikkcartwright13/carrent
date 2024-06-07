@@ -11,7 +11,7 @@ interface CarCardProps {
 }
 
 const CarCard = ({ car }: CarCardProps) => {
-  const { kml,  make, model, transmission, drive,  } = car;
+  const { kml,  make, model, transmission, drive, image } = car;
 
   const [isOpen, setIsOpen] = useState(false);
   //const carRent = calculateCarRent(kml, year);
@@ -30,7 +30,7 @@ const CarCard = ({ car }: CarCardProps) => {
           <span className='self-end text-[14px] leading-[17px] font-medium'>/day</span>
         </p>
         <div className='relative w-full h-40 my-3'>
-          {/* <Image src={image} alt='car model' layout="fill" priority className='object-contain' /> */}
+          <Image src={image} alt='car model' layout="fill" priority className='object-contain' />
         </div>
         <div className='relative flex w-full mt-2'>
           <div className='flex group-hover:invisible w-full justify-between text-grey'>

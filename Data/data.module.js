@@ -12,7 +12,31 @@ module.exports = [
         "model": "corolla",
         "transmission": "a",
         "year": 1993,
-        "image": require('@/public/1subaru.jpg'),
-        
+        "image": 'https://i.ibb.co/0hmTP4K/ophoss-logo.jpg',
+        "gallery": [
+            'https://i.ibb.co/0hmTP4K/ophoss-logo.jpg',
+            'https://i.ibb.co/DDn0CxL/post-cover-ds23r.jpg',
+            'https://i.ibb.co/0hmTP4K/ophoss-logo.jpg',
+        ],
+    },
+    {
+        "kml": 23,
+        "class": "compact car",
+        "combination_mpg": 24,
+        "cylinders": 4,
+        "displacement": 1.6,
+        "drive": "fwd",
+        "fuel_type": "gas",
+        "highway_mpg": 26,
+        "make": "mazda",
+        "model": "bugatata",
+        "transmission": "a",
+        "year": 1993,
+        "image": 'https://i.ibb.co/DDn0CxL/post-cover-ds23r.jpg',
+        "gallery": [
+            'https://i.ibb.co/0hmTP4K/ophoss-logo.jpg',
+            'https://i.ibb.co/DDn0CxL/post-cover-ds23r.jpg',
+            'https://i.ibb.co/0hmTP4K/ophoss-logo.jpg',
+        ],
     },
 ];
