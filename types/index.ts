@@ -27,7 +27,7 @@ export interface SearchManufacturerProps {
 
 export interface CarProps {
     Price:number
-    L100km: number;
+    L100km: string;
     class: string;
     cylinders: number;
     Engine: number;

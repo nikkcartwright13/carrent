@@ -4,7 +4,9 @@ import React from 'react';
 import Image from 'next/image';
 import { Fragment } from 'react';
 import { Dialog, Transition } from '@headlessui/react';
-
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 interface CarDetailsProps {
     isOpen: boolean;
@@ -15,6 +17,13 @@ interface CarDetailsProps {
 const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => {
     const whatsappLink = `https://wa.me/yourphonenumber?text=I'm%20interested%20in%20the%20${car.make}%20${car.model}`;
 
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    };
 
     return (
         <Transition appear show={isOpen} as={Fragment}>
@@ -51,20 +60,13 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => {
                                 </button>
 
                                 <div className="flex-1 flex flex-col gap-3">
-                                    <div className="relative w-full h-60 bg-pattern bg-cover bg-center rounded-lg">
-                                    <Image src={car?.gallery[0]} alt="car model" fill priority className="object-contain" />
-                                    </div>
-                                    <div className="flex gap-4">
-                                        <div className="flex-1 relative w-full h-74">
-                                            <Image src={car?.gallery[0]} alt="car model" fill priority className="object-contain" />
-                                        </div>
-                                        <div className="flex-1 relative w-full h-24">
-                                            <Image src={car?.gallery[1]} alt="car model" fill priority className="object-contain" />
-                                        </div>
-                                        <div className="flex-1 relative w-full h-24">
-                                            <Image src={car?.gallery[2]} alt="car model" fill priority className="object-contain" />
-                                        </div>
-                                    </div>
+                                    <Slider {...settings}>
+                                        {car.gallery.map((image, index) => (
+                                            <div key={index} className="relative w-full h-60 bg-pattern bg-cover bg-center rounded-lg">
+                                                <Image src={image} alt={`car model ${index}`} fill priority className="object-contain" />
+                                            </div>
+                                        ))}
+                                    </Slider>
                                 </div>
                                 <div className="flex-1 flex flex-col gap-2">
                                     <h2 className="font-semibold text-xl capitalize">
