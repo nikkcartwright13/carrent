@@ -26,22 +26,22 @@ export interface SearchManufacturerProps {
 }
 
 export interface CarProps {
-    kml: number;
+    Price:number
+    L100km: number;
     class: string;
-    combination_mpg: number;
     cylinders: number;
-    displacement: number;
+    Engine: number;
     drive: string;
     fuel_type: string;
-    highway_mpg: number;
+    
     make: string;
     model: string;
     transmission: string;
     year: number;
     // image: typeof import("*.jpg")
     image: string;
-    gallery: object
- //   gallery: string[];
+    //gallery: object
+    gallery: string[];
 }
 
 

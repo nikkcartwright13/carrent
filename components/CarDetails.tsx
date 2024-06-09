@@ -15,6 +15,7 @@ interface CarDetailsProps {
 const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => {
     const whatsappLink = `https://wa.me/yourphonenumber?text=I'm%20interested%20in%20the%20${car.make}%20${car.model}`;
 
+
     return (
         <Transition appear show={isOpen} as={Fragment}>
             <Dialog as="div" className="relative z-10" onClose={closeModal}>
@@ -50,18 +51,18 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => {
                                 </button>
 
                                 <div className="flex-1 flex flex-col gap-3">
-                                    <div className="relative w-full h-40 bg-pattern bg-cover bg-center rounded-lg">
-                                        <Image src={car.image} alt="car model" fill priority className="object-contain" />
+                                    <div className="relative w-full h-60 bg-pattern bg-cover bg-center rounded-lg">
+                                    <Image src={car?.gallery[0]} alt="car model" fill priority className="object-contain" />
                                     </div>
-                                    <div className="flex gap-3">
-                                        <div className="flex-1 relative w-full h-24">
-                                            <Image src={car.gallery[0]} alt="car model" fill priority className="object-contain" />
+                                    <div className="flex gap-4">
+                                        <div className="flex-1 relative w-full h-74">
+                                            <Image src={car?.gallery[0]} alt="car model" fill priority className="object-contain" />
                                         </div>
                                         <div className="flex-1 relative w-full h-24">
-                                            <Image src={car.gallery[1]} alt="car model" fill priority className="object-contain" />
+                                            <Image src={car?.gallery[1]} alt="car model" fill priority className="object-contain" />
                                         </div>
                                         <div className="flex-1 relative w-full h-24">
-                                            <Image src={car.gallery[2]} alt="car model" fill priority className="object-contain" />
+                                            <Image src={car?.gallery[2]} alt="car model" fill priority className="object-contain" />
                                         </div>
                                     </div>
                                 </div>
@@ -70,10 +71,10 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => {
                                         {car.make} {car.model}
                                     </h2>
                                     <div className="mt-3 flex flex-wrap gap-4">
-                                        {Object.entries(car).map(([key, value]) => (
+                                        {Object.entries(car).slice(0, 10).map(([key, value]) => (
                                             <div className="flex justify-between gap-5 w-full text-right" key={key}>
-                                                <h4 className="text-grey capitalize">{key.split('_').join(' ')}</h4>
-                                                <p className="text-black-100 font-semibold">{value}</p>
+                                                <h5 className="text-grey capitalize">{key.split('_').join(' ')}</h5>
+                                                <p className="text-black-100 ">{value}</p>
                                             </div>
                                         ))}
                                     </div>

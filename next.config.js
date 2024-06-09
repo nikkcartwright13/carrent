@@ -2,7 +2,7 @@
 const nextConfig = {
 
     images: {
-        domains: ["cdn.imagin.studio", "i.ibb.co"],
+        domains: ["cdn.imagin.studio",  "s3-eu-west-1.amazonaws.com", "raw.githubusercontent.com"],
     }
 }
 

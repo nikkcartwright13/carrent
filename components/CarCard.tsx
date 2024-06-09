@@ -11,7 +11,7 @@ interface CarCardProps {
 }
 
 const CarCard = ({ car }: CarCardProps) => {
-  const { kml,  make, model, transmission, drive, image } = car;
+  const { L100km,  make, model, transmission, drive, image , Price } = car;
 
   const [isOpen, setIsOpen] = useState(false);
   //const carRent = calculateCarRent(kml, year);
@@ -25,11 +25,12 @@ const CarCard = ({ car }: CarCardProps) => {
           </h2>
         </div>
         <p className='flex mt-6 text-[32px] leading-[38px] font-extrabold'>
-          <span className='self-start text-[14px] leading-[17px] font-semibold'>$</span>
+          <span className='self-start text-[14px] leading-[17px] font-semibold'>₾</span>
           {/* {carRent} */}
+          {Price}
           <span className='self-end text-[14px] leading-[17px] font-medium'>/day</span>
         </p>
-        <div className='relative w-full h-40 my-3'>
+        <div className='relative w-full h-60 my-3'>
           <Image src={image} alt='car model' layout="fill" priority className='object-contain' />
         </div>
         <div className='relative flex w-full mt-2'>
@@ -46,7 +47,7 @@ const CarCard = ({ car }: CarCardProps) => {
             </div>
             <div className="car-card__icon">
               <Image src="/gas.svg" width={20} height={20} alt="gas" />
-              <p className="car-card__icon-text">{kml} MPG</p>
+              <p className="car-card__icon-text">{L100km}  L/100km</p>
             </div>
           </div>
           <div className='car-card__btn-container'>
