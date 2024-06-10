@@ -77,7 +77,7 @@ module.exports = [
         "model": "Pajero io",
         "transmission": "Automatic",
         "year": 2002,
-        "image": 'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Pajeriio/mitsuu.jpeg',
+        "image": 'https://s3-eu-west-1.amazonaws.com/localrent.images/cars/image_titles/000/027/349/original/Mitsubishi-PAJERO-io-2005-white.jpg?1652883725',
         "gallery": [
             'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Pajeriio/pajerowhite1.jpeg',
             'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Pajeriio/pajerowhite2.jpeg',
@@ -131,6 +131,31 @@ module.exports = [
             'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/mersedes/mbz5.jpeg',
             'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/mersedes/mbz6.jpeg',
             
+
+        ],
+    },
+    {
+        "Price": 80,
+        "L100km": '10 Liter',
+        "class": "SUV",
+        "cylinders": 4,
+        "Engine": 2.0,
+        "drive": "fwd",
+        "fuel_type": "Gasoline",
+        "make": "Mitsubishi",
+        "model": "Pajero io",
+        "transmission": "Automatic",
+        "year": 2002,
+        "image": 'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Pajeriio/mitsuu.jpeg',
+        "gallery": [
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Pajeriio/twodoor.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Pajeriio/twodoor2.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Pajeriio/twodoor3.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Pajeriio/twodoor4.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Pajeriio/twodoor5.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Pajeriio/twodoor6.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Pajeriio/twodoor7.jpeg',
+          
 
         ],
     },
