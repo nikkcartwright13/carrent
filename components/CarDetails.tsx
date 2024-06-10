@@ -88,6 +88,12 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => {
                                     >
                                         Contact us on WhatsApp
                                     </button>
+                                    <button
+                                        className="mt-3 w-full bg-blue-500 text-white py-4 px-8 rounded"
+                                        onClick={() => window.open('https://maps.app.goo.gl/LvGEttW7uEhoY6GT6', '_blank')}
+                                    >
+                                        View on Map
+                                    </button>
                                 </div>
                             </Dialog.Panel>
                         </Transition.Child>

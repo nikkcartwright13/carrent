@@ -96,10 +96,13 @@ module.exports = [
         "year": 2003,
         "image": 'https://s3-eu-west-1.amazonaws.com/localrent.images/cars/image_titles/000/021/407/original/Mercedes-Benz-SLK-230-2006-silver.jpg?1624897419',
         "gallery": [
-            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Hyndai/hyndai.jpeg',
-            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Hyndai/hinday2.jpeg',
-            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Hyndai/hyndai2.jpeg',
-            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Hyndai/hyndai3.jpeg'
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/mersedes/mbz.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/mersedes/mbz1.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/mersedes/mbz2.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/mersedes/mbz3.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/mersedes/mbz5.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/mersedes/mbz6.jpeg',
+            
 
         ],
     },
@@ -112,15 +115,35 @@ module.exports = [
         "drive": "fwd",
         "fuel_type": "Gasoline",
         "make": "Toyota",
-        "model": "Sienna/Users/nikalachashvili/Desktop/Nika Cars/Toyota.jpeg /Users/nikalachashvili/Desktop/Nika Cars/Toyota1.jpeg /Users/nikalachashvili/Desktop/Nika Cars/Toyota3.jpeg",
+        "model": "Sienna",
         "transmission": "Automatic",
         "year": 2015,
         "image": 'https://s3-eu-west-1.amazonaws.com/localrent.images/cars/image_titles/000/062/311/original/Toyota-Sienna-2016-black.jpg?1716792333',
         "gallery": [
-            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Hyndai/hyndai.jpeg',
-            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Hyndai/hinday2.jpeg',
-            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Hyndai/hyndai2.jpeg',
-            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Hyndai/hyndai3.jpeg'
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/Toyota.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/Toyota1.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/Toyota3.jpeg',
+           
+
+        ],
+    },{
+        "Price": 80,
+        "L100km": '5-6 Liter',
+        "class": "eco",
+        "cylinders": 4,
+        "Engine": 2.4,
+        "drive": "fwd",
+        "fuel_type": "Gasoline",
+        "make": "Toyota",
+        "model": "Camry",
+        "transmission": "Automatic",
+        "year": 2008,
+        "image": 'https://s3-eu-west-1.amazonaws.com/localrent.images/cars/image_titles/000/022/437/original/Toyota-Camry-2016-black.png?1693897582',
+        "gallery": [
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/Toyota.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/Toyota1.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/Toyota3.jpeg',
+           
 
         ],
     },
