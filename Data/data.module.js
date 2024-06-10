@@ -62,7 +62,33 @@ module.exports = [
           
 
         ],
-    }, {
+    }, 
+    
+    
+    {
+        "Price": 80,
+        "L100km": '10 Liter',
+        "class": "SUV",
+        "cylinders": 4,
+        "Engine": 2.0,
+        "drive": "fwd",
+        "fuel_type": "Gasoline",
+        "make": "Mitsubishi",
+        "model": "Pajero io",
+        "transmission": "Automatic",
+        "year": 2002,
+        "image": 'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Pajeriio/mitsuu.jpeg',
+        "gallery": [
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Pajeriio/pajerowhite1.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Pajeriio/pajerowhite2.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Pajeriio/pajerowhite3.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Pajeriio/pajerowhite4.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Pajeriio/pajerowhite5.jpeg',
+          
+
+        ],
+    },
+    {
         "Price": 80,
         "L100km": '10-12 Liter',
         "class": "SUV",
@@ -74,12 +100,14 @@ module.exports = [
         "model": "X-trail",
         "transmission": "Automatic",
         "year": 2002,
-        "image": 'https://s3-eu-west-1.amazonaws.com/localrent.images/cars/image_titles/000/045/768/original/Hyundai-Tucson-2019-white.jpg?1686297153',
+        "image": 'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Nissan/niss.png',
         "gallery": [
-            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Hyndai/hyndai.jpeg',
-            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Hyndai/hinday2.jpeg',
-            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Hyndai/hyndai2.jpeg',
-            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Hyndai/hyndai3.jpeg'
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Nissan/nissan5.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Nissan/nissan6.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Nissan/nissan1.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Nissan/nissan2.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Nissan/nissan3.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Nissan/nissan4.jpeg',
 
         ],
     }, {
@@ -140,9 +168,12 @@ module.exports = [
         "year": 2008,
         "image": 'https://s3-eu-west-1.amazonaws.com/localrent.images/cars/image_titles/000/022/437/original/Toyota-Camry-2016-black.png?1693897582',
         "gallery": [
-            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/Toyota.jpeg',
-            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/Toyota1.jpeg',
-            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/Toyota3.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/Camry1.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/camry2.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/camry3.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/camry4.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/camry5.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/camry6.jpeg'
            
 
         ],
