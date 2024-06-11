@@ -1,6 +1,6 @@
 "use client"
 import { CarProps } from '@/types';
-import React from 'react';
+import React, { useState } from 'react';
 import Image from 'next/image';
 import { Fragment } from 'react';
 import { Dialog, Transition } from '@headlessui/react';
@@ -15,6 +15,8 @@ interface CarDetailsProps {
 }
 
 const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => {
+    const [loading, setLoading] = useState(true);
+
     const whatsappLink = `https://wa.me/yourphonenumber?text=I'm%20interested%20in%20the%20${car.make}%20${car.model}`;
 
     const settings = {
@@ -23,6 +25,10 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
+    };
+
+    const handleImageLoad = () => {
+        setLoading(false);
     };
 
     return (
@@ -63,7 +69,8 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => {
                                     <Slider {...settings}>
                                         {car.gallery.map((image, index) => (
                                             <div key={index} className="relative w-full h-60 bg-pattern bg-cover bg-center rounded-lg">
-                                                <Image src={image} alt={`car model ${index}`} fill priority className="object-contain" />
+                                                {loading && <div className="absolute inset-0 flex items-center justify-center bg-gray-200"><span>Loading...</span></div>}
+                                                <Image src={image} alt={`car model ${index}`} fill priority className="object-contain" onLoadingComplete={handleImageLoad} />
                                             </div>
                                         ))}
                                     </Slider>
