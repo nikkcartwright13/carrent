@@ -143,7 +143,7 @@ module.exports = [
         "drive": "fwd",
         "fuel_type": "Gasoline",
         "make": "Mitsubishi",
-        "model": "Pajero io",
+        "model": "Pajero io two door",
         "transmission": "Automatic",
         "year": 2002,
         "image": 'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Pajeriio/mitsuu.jpeg',
@@ -202,6 +202,101 @@ module.exports = [
            
 
         ],
+    },{
+        "Price": 80,
+        "L100km": '5-6 Liter',
+        "class": "eco",
+        "cylinders": 4,
+        "Engine": 1.5,
+        "drive": "fwd",
+        "fuel_type": "Gasoline",
+        "make": "Toyota",
+        "model": "Yaris",
+        "transmission": "Automatic",
+        "year": 2008,
+        "image": 'https://s3-eu-west-1.amazonaws.com/localrent.images/cars/image_titles/000/027/159/original/Toyota-Yaris-2006-black.jpg?1652359711',
+        "gallery": [
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/Camry1.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/camry2.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/camry3.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/camry4.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/camry5.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/camry6.jpeg'
+           
+
+        ],
     },
+    {
+        "Price": 80,
+        "L100km": '9-10 Liter',
+        "class": "eco",
+        "cylinders": 4,
+        "Engine": 2.5,
+        "drive": "fwd",
+        "fuel_type": "Gasoline",
+        "make": "Subaru",
+        "model": "forester",
+        "transmission": "Automatic",
+        "year": 2009,
+        "image": 'https://s3-eu-west-1.amazonaws.com/localrent.images/cars/image_titles/000/047/414/original/Subaru-Forester-2016-blue.png?1689232942',
+        "gallery": [
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/Camry1.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/camry2.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/camry3.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/camry4.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/camry5.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/camry6.jpeg'
+           
+
+        ],
+    },{
+        "Price": 80,
+        "L100km": '9-10 Liter',
+        "class": "eco",
+        "cylinders": 4,
+        "Engine": 1.8,
+        "drive": "fwd",
+        "fuel_type": "Gasoline",
+        "make": "Nissan",
+        "model": "Versa",
+        "transmission": "Automatic",
+        "year": 2010,
+        "image": 'https://s3-eu-west-1.amazonaws.com/localrent.images/cars/image_titles/000/062/503/original/Nissan-Versa-2009-silver.jpg?1717133546',
+        "gallery": [
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/Camry1.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/camry2.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/camry3.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/camry4.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/camry5.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/camry6.jpeg'
+           
+
+        ],
+    },
+    {
+        "Price": 80,
+        "L100km": '9-10 Liter',
+        "class": "eco",
+        "cylinders": 4,
+        "Engine": 1.8,
+        "drive": "fwd",
+        "fuel_type": "Gasoline",
+        "make": "Suzuki",
+        "model": "Grand vitara",
+        "transmission": "Automatic",
+        "year": 2010,
+        "image": 'https://s3-eu-west-1.amazonaws.com/localrent.images/cars/image_titles/000/062/503/original/Nissan-Versa-2009-silver.jpg?1717133546',
+        "gallery": [
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/Camry1.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/camry2.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/camry3.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/camry4.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/camry5.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/camry6.jpeg'
+           
+
+        ],
+    },
+
 
 ];
