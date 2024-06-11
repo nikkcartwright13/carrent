@@ -1,13 +1,11 @@
 "use client"
 import React from 'react'
-import { CustomButton } from '.'
+
 import Image from 'next/image'
 
 const Hero = () => {
 
-    const handleScroll = () => {
-
-    }
+    
 
     return (
         <div className='hero'>

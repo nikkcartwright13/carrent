@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Image from 'next/image';
 import { CarProps } from '@/types';
 import { CustomButton, CarDetails } from '.';
-//import { calculateCarRent } from '@/utils';
+
 import styles from './CarCard.module.css';
 
 interface CarCardProps {
