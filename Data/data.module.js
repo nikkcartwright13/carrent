@@ -263,36 +263,57 @@ module.exports = [
         "year": 2010,
         "image": 'https://s3-eu-west-1.amazonaws.com/localrent.images/cars/image_titles/000/062/503/original/Nissan-Versa-2009-silver.jpg?1717133546',
         "gallery": [
-            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/Camry1.jpeg',
-            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/camry2.jpeg',
-            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/camry3.jpeg',
-            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/camry4.jpeg',
-            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/camry5.jpeg',
-            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/camry6.jpeg'
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Nissan/Versa.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Nissan/Versa1.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Nissan/Versa3.jpeg',
+            
            
 
         ],
     },
     {
         "Price": 80,
-        "L100km": '9-10 Liter',
+        "L100km": '10-13 Liter',
         "class": "eco",
-        "cylinders": 4,
-        "Engine": 1.8,
+        "cylinders": 6,
+        "Engine": 2.7,
         "drive": "fwd",
         "fuel_type": "Gasoline",
         "make": "Suzuki",
         "model": "Grand vitara",
         "transmission": "Automatic",
-        "year": 2010,
-        "image": 'https://s3-eu-west-1.amazonaws.com/localrent.images/cars/image_titles/000/062/503/original/Nissan-Versa-2009-silver.jpg?1717133546',
+        "year": 2008,
+        "image": 'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/suzuki/sukop.png',
         "gallery": [
-            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/Camry1.jpeg',
-            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/camry2.jpeg',
-            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/camry3.jpeg',
-            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/camry4.jpeg',
-            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/camry5.jpeg',
-            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/camry6.jpeg'
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/suzuki/suzuki.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/suzuki/suzuki1.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/suzuki/suzuki3.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/suzuki/suzuki4.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/suzuki/suzuki5.jpeg',
+           
+
+        ],
+    },
+    {
+        "Price": 80,
+        "L100km": '8-10 Liter',
+        "class": "eco",
+        "cylinders": 4,
+        "Engine": 2.0,
+        "drive": "fwd",
+        "fuel_type": "Gasoline",
+        "make": "Suzuki",
+        "model": "sx 4",
+        "transmission": "Automatic",
+        "year": 2008,
+        "image": 'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/suzuki/suzz.png',
+        "gallery": [
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/suzuki/suzu.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/suzuki/suzu1.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/suzuki/suzu3.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/suzuki/suzu4.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/suzuki/suzu5.jpeg',
+            'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/suzuki/suzu6.jpeg',
            
 
         ],
