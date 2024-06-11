@@ -306,7 +306,7 @@ module.exports = [
         "model": "sx 4",
         "transmission": "Automatic",
         "year": 2008,
-        "image": 'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/suzuki/suzz.png',
+        "image": 'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/suzuki/sipp.png',
         "gallery": [
             'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/suzuki/suzu.jpeg',
             'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/suzuki/suzu1.jpeg',
