@@ -17,6 +17,7 @@ const Hero = () => {
                 </h1>
                 <p className='hero__subtitle'>
                     10 Kote Afkhazi St, Tbilisi
+                    Phone:+995577773385
                 </p>
 
                 <button
