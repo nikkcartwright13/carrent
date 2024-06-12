@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { CarProps } from '@/types';
 import React, { useState } from 'react';
 import Image from 'next/image';
@@ -100,6 +100,12 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => {
                                         onClick={() => window.open('https://maps.app.goo.gl/LvGEttW7uEhoY6GT6', '_blank')}
                                     >
                                         View on Map
+                                    </button>
+                                    <button
+                                        className="mt-3 w-full bg-red-500 text-white py-4 px-8 rounded"
+                                        onClick={() => window.open(`tel:+995577773385`, '_self')}
+                                    >
+                                        Call Us
                                     </button>
                                 </div>
                             </Dialog.Panel>
