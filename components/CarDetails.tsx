@@ -17,7 +17,7 @@ interface CarDetailsProps {
 const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => {
     const [loading, setLoading] = useState(true);
 
-    const whatsappLink = `https://wa.me/yourphonenumber?text=I'm%20interested%20in%20the%20${car.make}%20${car.model}`;
+    const whatsappLink = `https://Wa.me/+995577773385?text=I'm%20interested%20in%20the%20${car.make}%20${car.model}`;
 
     const settings = {
         dots: true,
