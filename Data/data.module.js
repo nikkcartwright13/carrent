@@ -108,7 +108,7 @@ module.exports = [
         "model": "Camry",
         "transmission": "Automatic",
         "year": 2008,
-        "image": 'https://s3-eu-west-1.amazonaws.com/localrent.images/cars/image_titles/000/022/437/original/Toyota-Camry-2016-black.png?1693897582',
+        "image": 'https://s3-eu-west-1.amazonaws.com/localrent.images/cars/image_titles/000/011/542/original/Toyota-Camry-2009-gray1_(1).jpg?1561148511',
         "gallery": [
             'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/Camry1.jpeg',
             'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/Toyota/camry2.jpeg',
@@ -200,7 +200,7 @@ module.exports = [
         "model": "Grand vitara",
         "transmission": "Automatic",
         "year": 2008,
-        "image": 'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/suzuki/sukop.png',
+        "image": 'https://s3-eu-west-1.amazonaws.com/localrent.images/cars/image_titles/000/036/076/original/Suzuki-Vitara-2011-black-r.jpg?1671443747',
         "gallery": [
             'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/suzuki/suzuki.jpeg',
             'https://raw.githubusercontent.com/nikkcartwright13/carrent/main/Cars/suzuki/suzuki1.jpeg',
