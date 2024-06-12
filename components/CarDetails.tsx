@@ -56,7 +56,7 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => {
                             leaveFrom="opacity-100 scale-100"
                             leaveTo="opacity-0 scale-95"
                         >
-                            <Dialog.Panel className="fixed top-0 bottom-0 right-0 left-0 max-w-lg max-h-[90vh] overflow-y-auto transform bg-white p-6 text-left shadow-xsl transition-all flex flex-col gap-5">
+                            <Dialog.Panel className="relative w-full max-w-lg max-h-[90vh] overflow-y-auto transform rounded-2xl bg-white p-6 text-left shadow-xsl transition-all flex flex-col gap-5">
                                 <button
                                     type="button"
                                     onClick={closeModal}
@@ -89,6 +89,7 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => {
                                     </div>
                                 </div>
                                 <div>
+                                   
                                     <button
                                         className="mt-3 w-full bg-blue-500 text-white py-4 px-8 rounded"
                                         onClick={() => window.open('https://maps.app.goo.gl/LvGEttW7uEhoY6GT6', '_blank')}
