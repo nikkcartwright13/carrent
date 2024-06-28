@@ -26,7 +26,7 @@ export default function Home() {
       <div style={{marginBottom:"-60px"}}>
         <Hero />
       </div>
-      <div className="mt-10 padding-x max-width" id="discover">
+      <div className="mt-10 padding-x max-width">
         <div className="home__text-container">
           <h1 className="text-4xl font-extrabold">Car Catalogue</h1>
           <p>Explore the cars you might like</p>
